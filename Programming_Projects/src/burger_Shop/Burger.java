@@ -7,9 +7,9 @@ public class Burger<T> {
 //	String burgerName;
 //	String meat;
 //	String breadType;
-	ArrayList<BurgerComponent<T>> burgerComponents;
+	ArrayList<BurgerIngredients<T>> burgerComponents;
 	public Burger() {
-		burgerComponents = new ArrayList<BurgerComponent<T>>();
+		burgerComponents = new ArrayList<BurgerIngredients<T>>();
 	}
 	public Burger(double price, String Name) {
 		this.price = price;
